@@ -56,7 +56,7 @@ export default class BarcodeScreen extends React.Component {
           </Text>
           <TouchableOpacity style={styles.scanButton}
           onPress={()=>{
-              this.getCameraPermissions
+              this.getCameraPermissions()
           }} >  
             <Text style ={styles.buttonText}>Scan QR code</Text>
             </TouchableOpacity>
